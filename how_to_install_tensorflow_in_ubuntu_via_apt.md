@@ -52,4 +52,10 @@ wsl --set-version Ubuntu-20.04 2
 wsl -l -v
 
 
+- [ ] 没选中的复选框
+- [x] 选中复选框
+
+
+
+
 
