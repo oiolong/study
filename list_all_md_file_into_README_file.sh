@@ -27,4 +27,7 @@ done
 
 printf $list_files > list_files.list
 
-sed -i -ne '/<!-- BEGIN realm -->/ {p; r list_files.list' -e ':a; n; /<!-- END realm -->/ {p; b}; ba}; p' server.xml
+sed -i -ne '/- file_lists -/ {p; r list_files.list' -e ':a; n; / - Eof file_lists -/ {p; b}; ba}; p' README.md
+
+
+
