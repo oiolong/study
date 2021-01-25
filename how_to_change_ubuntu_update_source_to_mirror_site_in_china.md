@@ -21,3 +21,6 @@ deb https://security.ubuntu.com/ubuntu xenial-security main
 deb https://developer.download.nvidia.cn/compute/cuda/repos/ubuntu2004/x86_64/ /
 
 ```
+
+via Tsinghua University TUNA Association
+
