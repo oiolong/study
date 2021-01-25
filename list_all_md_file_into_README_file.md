@@ -39,10 +39,9 @@ for file in *.md ; do
     
 done
 
-printf $list_files
+printf $list_files > list_files.list
 
-
-sed -i -ne '/<!-- BEGIN realm -->/ {p; ' $list_files -e ':a; n; /<!-- END realm -->/ {p; b}; ba}; p' server.xml
+sed -i -ne '/<!-- BEGIN realm -->/ {p; r list_files.list' -e ':a; n; /<!-- END realm -->/ {p; b}; ba}; p' server.xml
 
 ```
 
@@ -52,3 +51,54 @@ the sed shell script is i found it in stackoverflower
 source : https://stackoverflow.com/questions/2699666/replace-delimited-block-of-text-in-file-with-the-contents-of-another-file
 
 source: https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/392291/
+
+ok let's make it work to README.md
+
+
+change this to 
+
+
+```
+
+sed -i -ne '/<!-- BEGIN realm -->/ {p; r list_files.list' -e ':a; n; /<!-- END realm -->/ {p; b}; ba}; p' server.xml
+
+
+```
+
+```
+
+sed -i -ne '/- file_lists -/ {p; r list_files.list' -e ':a; n; / - Eof file_lists -/ {p; b}; ba}; p' README.md
+
+```
+
+
+the tree.md 
+
+
+```
+
+for file in *.md ; do
+	if [ "$file" == "README.md" ]
+		then
+			echo "This is README.md !!! Number is an even number!!"
+		continue
+	fi
+
+	list_files="$list_files($file)\n"
+	#echo "$(basename "$file")"
+    
+done
+
+```
+
+
+to
+
+```
+
+tree=$(tree -tf --noreport -I '*~' --charset ascii $1 |
+	       sed -e 's/| \+/  /g' -e 's/[|`]-\+/ */g' -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g')
+
+
+```
+source : https://stackoverflow.com/questions/23989232/is-there-a-way-to-represent-a-directory-tree-in-a-github-readme-md
