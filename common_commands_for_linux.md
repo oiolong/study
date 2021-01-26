@@ -29,12 +29,24 @@ If your proxy needs a login/password, substitute:
 ```
 
 with:
+using username and password from the proxy server.
 
 ```
 "http://username:password@yourproxyaddress:proxyport";
 ```
 
-using username and password from the proxy server.
+
+with:
+using username and password from the https proxy server.
+
+```
+
+$ sudo vim /etc/apt/apt.conf
+
+Acquire::http::Proxy "http://USERNAME:PASSWORD@SERVER:PORT";
+Acquire::https::Proxy "https://USERNAME:PASSWORD@SERVER:PORT";
+
+```
 
 
 source: [configure proxy for apt](https://askubuntu.com/questions/257290/configure-proxy-for-apt)
