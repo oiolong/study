@@ -2,6 +2,9 @@ this project is my study notes
 
 im glad this was helpful to you
 
+
+![Linus Torvalds Nvidia Fuck Your](data/Linus_Torvalds_Nvidia_Fuck_You.gif)
+
  - file_lists -
 # Project tree
 
