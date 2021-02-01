@@ -22,4 +22,13 @@ apt-get install nodejs npm -y
 ```
 
 
+#install cnpm if you living in china
+
+
+```
+sudo npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+```
+
+
 source:[How to install Node.js and npm on Ubuntu](https://www.rosehosting.com/blog/how-to-install-node-js-and-npm-on-ubuntu-20-04/)
