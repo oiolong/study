@@ -42,5 +42,7 @@ wslconfig /u Ubuntu-18.04
 
 
 source:[Easily move WSL distributions between Windows 10 machines with import and export!](https://www.hanselman.com/blog/easily-move-wsl-distributions-between-windows-10-machines-with-import-and-export)
+
+
 source:[WSL:install and uninstall](https://blog.csdn.net/zhangpeterx/article/details/97616268)
 
