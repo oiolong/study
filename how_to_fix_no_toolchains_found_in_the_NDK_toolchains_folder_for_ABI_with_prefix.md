@@ -2,6 +2,8 @@
 
 
 
+![ndk_path](data/how_to_fix_no_toolchains_found_in_the_NDK_toolchains_folder_for_ABI_with_prefix/ndk_path.png)
+
 
 Method 1: set your ```NDK``` path ```(ex. ndk.dir=F\:\\WorkSoft\\NDK\\android-ndk-r17b)``` in your local.properties in android studio
 
