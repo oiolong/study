@@ -61,6 +61,10 @@ i run flutter doctor -v after flutter installed
 https://blog.csdn.net/yechaoa/article/details/89175322
 
 
+https://github.com/flutter/flutter/issues/13078
+
+
+
 https://blog.csdn.net/iblade/article/details/104927006
 
 
