@@ -7,7 +7,7 @@ Step 1. Open a Vimeo blob video in a web browser. I’m using Chrome.
 
 Step 2. Right-click and select the Inspect option that appears. Find the blob URL.
 
-![find the blob url](data/download-blog-video/vimeo-blog.png)
+![find the blob url](data/download-blog-video/vimeo-blob.png)
 
 Step 3. Replace the blob URL with x.
 
