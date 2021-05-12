@@ -8,6 +8,7 @@
 
 2. 点击服务，勾选隐藏Microsoft服务，点击全部禁用
 
+![disable all services without microsoft](wins/data/wsl.png)
 3. 重启
 
 以上操作完成后看看是否可行。
