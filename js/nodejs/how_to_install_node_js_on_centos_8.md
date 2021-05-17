@@ -47,3 +47,6 @@ node --version
 
 Output
 v14.16.0
+
+
+source:[how to install node js on centos 8](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-centos-8)
