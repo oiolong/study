@@ -1,11 +1,14 @@
+#1 init with vue-webpack template
 
-
-```console
+```
 
 vue init webpack-simple my-webpack-simple-demo
 
+```
 
+#2 the vue-webpack template project structure
 
+```console
 
 [04:21] [dev my-webpack-simple-demo] $ tree ./
 ./
@@ -22,4 +25,34 @@ vue init webpack-simple my-webpack-simple-demo
 
 2 directories, 7 files
 
+
 ```
+
+
+#3 install the dependencies 
+
+```console
+
+npm install 
+
+``` 
+
+#4 dev mode
+
+```
+
+npm run dev
+
+```
+
+#5 build
+
+```
+
+npm run build
+
+```
+
+source:[webpack template in vue](https://vuejs-templates.github.io/webpack/)
+[what's vue loader](https://vue-loader-v14.vuejs.org/zh-cn/)
+[how to init vuejs template](https://www.cnblogs.com/alinaxia/p/6395810.html)
