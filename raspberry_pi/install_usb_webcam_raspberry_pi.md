@@ -42,3 +42,7 @@ Here is the result from the fswebcam command with 640x480 resolution.
 
 
 ![cam](/data/raspberry_pi/install_usb_webcam_raspberry_pi/cam.jpg)
+
+
+
+source:[How to install a USB webcam in Raspberry Pi](https://www.xmodulo.com/install-usb-webcam-raspberry-pi.html)
