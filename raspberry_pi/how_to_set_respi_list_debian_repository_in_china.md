@@ -64,16 +64,28 @@ and 10.9 is buster version
 
 so ...
 
-change the source in /etc/apt/sources.list
+change the source in /etc/apt/sources.list and  /etc/apt/sources.list.d/raspi.list
 
 
+###/etc/apt/sources.list
 ```
-
 
 deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main contrib non-free rpi
 deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main contrib non-free rpi
 
 ```
+
+###/etc/apt/sources.list.d/raspi.list
+
+
+```
+
+deb https://mirror.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
+deb-src https://mirror.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
+
+
+```
+
 
 
 ok . it's work
