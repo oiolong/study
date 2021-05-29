@@ -104,3 +104,4 @@ Save the changes to /etc/fstab and reboot if necessary.
 
 
 source:[How To Use SSHFS to Mount Remote File Systems Over SSH](https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh)
+[wiki SSHFS](https://en.wikipedia.org/wiki/SSHFS)
