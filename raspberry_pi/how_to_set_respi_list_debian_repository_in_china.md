@@ -86,11 +86,20 @@ deb-src https://mirror.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
 
 ```
 
+## apt update
 
+``` console
+root@raspberrypi:~# history
+root@raspberrypi:~# apt update
+root@raspberrypi:~# apt list --upgradable
+root@raspberrypi:~# history
+root@raspberrypi:~# sudo apt full-upgrade
+root@raspberrypi:~# 
 
+```
 ok . it's work
 
 
 source:[how_to_set_respi_list_debian_repository_in_china](https://blog.csdn.net/weixin_43894786/article/details/105642275)
 
-
+[apt update](https://www.jianshu.com/p/93ef6bace0a4)
